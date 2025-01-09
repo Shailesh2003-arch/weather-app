@@ -16,14 +16,24 @@ html {
 
 .container {
   /* border: 2px solid red; */
-  background-color: #58585825;
-  height: 400px;
-  border-radius: 10px;
   display: flex;
-  justify-content: center;
+  /* justify-content: space-evenly; */
+  /* align-items: center; */
   flex-direction: column;
+  background-color: #58585825;
+  border-radius: 10px;
   align-items: center;
   padding: 1.5rem;
+}
+
+#app-head {
+  text-align: center;
+  /* border: 2px solid red; */
+}
+
+.weather-box {
+  margin-top: 1.5rem;
+  text-align: center;
 }
 
 .input-container input {
