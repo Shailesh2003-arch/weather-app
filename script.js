@@ -36,6 +36,8 @@ document.addEventListener("DOMContentLoaded", () => {
     cityNameDisplay.textContent = name;
     weatherInfo.classList.remove("hidden");
     errorMsg.classList.add("hidden");
+    temperatureDisplay.textContent = `Temperature:${main.temp}`;
+    descriptionDisplay.textContent = `Weather:${weather[0].description}`;
   }
   function showError() {
     weatherInfo.classList.add("hidden");
