@@ -63,5 +63,6 @@ html {
 
 #error-msg {
   margin-top: 1.3rem;
-  color: darkred;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
 }
