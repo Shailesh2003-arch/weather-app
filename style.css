@@ -57,6 +57,11 @@ html {
   background-color: #288da1;
 }
 
+.hidden {
+  display: none;
+}
+
 #error-msg {
   margin-top: 1.2rem;
+  color: darkred;
 }
