@@ -28,15 +28,13 @@ A simple and interactive Weather App built using HTML, CSS, and JavaScript. The 
 ## 🎯 How It Works
 
 1. **Search for a City**:  
-   Enter the name of a city in the input field and click "Search" or press "Enter".  
+   Enter the name of a city in the input field and click "Get Weather".  
    ![Search City](./images-for-ref/weather.png)
 
 2. **Display Weather Details**:  
    Once the city is found, the app displays:
 
-   - Current temperature in Celsius or Fahrenheit.
-   - Weather description and an icon representing the condition.
-   - Humidity and wind speed.  
+   - Current temperature in Celsius or Fahrenheit.  
      ![Weather Details](./images-for-ref/pune.png)
 
 3. **Error Handling**:  
